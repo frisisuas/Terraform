@@ -1,5 +1,5 @@
 variable "aws_key_path" {
-  default = ""E:\clase\DevOps\Terraform\RCB-Stocolmo.pem""
+  default = "/home/usuario/RCB-Stocolmo.pem"
 }
 
 variable "aws_key_name" {
@@ -14,7 +14,7 @@ variable "aws_region" {
 variable "amis" {
   description = "AMIs por region"
   default = {
-    eu-west-1 = "ami-07d2cd50077a70430"
+    eu-north-1 = "ami-07d2cd50077a70430"
   }
 }
 
